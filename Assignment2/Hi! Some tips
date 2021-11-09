@@ -1,0 +1,6 @@
+Hi!
+
+If you want to see the final output of the scripts in the terminal screen you have to run the main.rb file.
+If you want to create an output file (report.txt) with the final output of the scripts you have to run the report.rb file.
+In the terminal, you have to write: 
+                ruby main.rb/report.rb ArabidopsisSubNetwork_GeneList.txt threshold(a number between 0.485 and 0.6)
