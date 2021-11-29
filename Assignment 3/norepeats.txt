@@ -1,0 +1,107 @@
+
+
+					REPORT
+
+
+This file is for reporting those genes of the list that do NOT have exons with the CTTCTT repeat
+
+There are 49 genes without exons with the CTTCTT repeat.
+
+		- at4g27030
+
+		- at2g13360
+
+		- at3g28270
+
+		- at5g64040
+
+		- at1g29660
+
+		- at1g64500
+
+		- at1g03130
+
+		- at4g17090
+
+		- at4g12830
+
+		- at2g01890
+
+		- at2g21210
+
+		- at1g52230
+
+		- at1g11850
+
+		- at2g34430
+
+		- at4g33010
+
+		- at4g27260
+
+		- at4g21210
+
+		- at1g29395
+
+		- at2g34420
+
+		- at4g37800
+
+		- at3g02730
+
+		- at5g01015
+
+		- at1g14150
+
+		- at4g28030
+
+		- at1g54040
+
+		- at5g22920
+
+		- at1g78370
+
+		- at1g68010
+
+		- at2g26740
+
+		- at1g72610
+
+		- at5g62280
+
+		- at1g28330
+
+		- at3g46780
+
+		- at2g33830
+
+		- at3g47340
+
+		- at1g29910
+
+		- at5g43750
+
+		- at1g13930
+
+		- at3g61260
+
+		- at2g38210
+
+		- at1g29920
+
+		- at1g74730
+
+		- at4g02770
+
+		- at5g48300
+
+		- at5g48490
+
+		- at1g30380
+
+		- at1g78460
+
+		- at4g12310
+
+		- at5g58260
+
