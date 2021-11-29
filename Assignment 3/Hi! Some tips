@@ -32,4 +32,8 @@ Tasks:  for 10% (harder)
 Along with your code, for this assignment please submit a screen-shot of your GFF track beside the AT2G46340 gene on the ENSEMBL website to show me that you were successful.  (note that the menu in the top-left of the ENSEMBL track-browser has an “export as image” option - or you can just take a screenshot - whichever you prefer)
 
 
+The file with the gene positions --> gene_positions.gff3
+The file with the chromosomical positons --> chr.gff3
+The file with those genes that do not have exons with the CTTCTT repeat --> norepeats.txt
 
+The script is only onle file --> finalscript.rb
