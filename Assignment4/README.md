@@ -4,6 +4,7 @@ Orthologue DEFINITION:  Genes that are found in different species that evolved f
 A common first-step in discovery of Orthologues is to do a “reciprocal best BLAST”. That is, you take protein X in Species A, and BLAST it against all proteins in Species B.  The top (significant!!) hit in Species B is then BLASTed against all proteins in Species A.  If it’s top (significant) hit is the Protein X, then those two proteins are considered to be Orthologue candidates.  (there is more work to do after this, but this is a good start)
 Using BioRuby to blast and parse the blast reports, find the orthologue pairs between species Arabidopsis and S. pombe.  I have uploaded their complete proteomes to the Moodle for you.  You do not need to create objects for this task (the existing BioRuby objects are sufficient)
 To decide on "sensible" BLAST parameters, do a bit of online reading - when you have decided what parameters to use, please cite the paper or website that provided the information.
+
 The BLAST parameters that I implemented in the script for the best detection of orthologs as reciprocal best hits are:
 -	the combination of soft filtering with a Smith–Waterman final alignment (-F ‘‘m S’’ -s T). These options resulted in both the highest number of orthologs and the minimal error rates. 
 -	An e-value threshold of 1*10^-6, as it was common in different papers of orthologues searching (The lower e-value, the more significant is the alignment). 
@@ -20,11 +21,15 @@ Pearson WR. An introduction to sequence similarity ("homology") searching. Curr 
 
 **Bonus 1%**
 Reciprocal-best-BLAST is only the first step in demonstrating that two genes are orthologous.  Write a few sentences describing how you would continue to analyze the putative orthologues you just discovered, to prove that they really are orthologues. You DO NOT need to write the code - just describe in words what that code would do.
+
 “The most conclusive evidence that two similar genes are orthologous is the result of phylogenetic analysis of the lineage of that gene. Genes found within the same clade are orthologous because they are descended from the same ancestor.”
+
 The analysis can be continued by obtaining phylogenetic trees of genes that are thought to be orthologues of the target species. I think that I would be necessary to include in these phylogenetic trees more species that have the target genes so it would be possible to know where the “mother” gene of each pair of orthologues was divided in the species and how was the evolution. 
 
 Focusing on Blast results, it is also possible to change the parameters in a harder way to found a smaller and more accurated number of ortholog genes. 
 
 Usage command of the script
+
 ruby script4.rb Spombe.fa Tair.fa
+
 **IMPORTANT**: in the function "do_reciprocalblasts" of the script it is necessary to change the database file paths as the current are MY PATHS 
