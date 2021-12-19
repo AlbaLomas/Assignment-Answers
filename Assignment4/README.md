@@ -13,7 +13,9 @@ The BLAST parameters that I implemented in the script for the best detection of 
 
 
 Gabriel Moreno-Hagelsieb, Kristen Latimer, Choosing BLAST options for better detection of orthologs as reciprocal best hits, Bioinformatics, Volume 24, Issue 3, 1 February 2008, Pages 319–324, https://doi.org/10.1093/bioinformatics/btm585
+
 Hernández-Salmerón, J.E., Moreno-Hagelsieb, G. Progress in quickly finding orthologs as reciprocal best hits: comparing blast, last, diamond and MMseqs2. BMC Genomics 21, 741 (2020). https://doi.org/10.1186/s12864-020-07132-6
+
 Wall DP, Fraser HB, Hirsh AE. Detecting putative orthologs. Bioinformatics. 2003 Sep 1;19(13):1710-1. doi: 10.1093/bioinformatics/btg213. PMID: 15593400.
 
 Pearson WR. An introduction to sequence similarity ("homology") searching. Curr Protoc Bioinformatics. 2013 Jun;Chapter 3:Unit3.1. doi: 10.1002/0471250953.bi0301s42. PMID: 23749753; PMCID: PMC3820096.
@@ -28,8 +30,6 @@ The analysis can be continued by obtaining phylogenetic trees of genes that are 
 
 Focusing on Blast results, it is also possible to change the parameters in a harder way to found a smaller and more accurated number of ortholog genes. 
 
-Usage command of the script
-
-ruby script4.rb Spombe.fa Tair.fa
+Usage command of the script: ruby script4.rb Spombe.fa Tair.fa
 
 **IMPORTANT**: in the function "do_reciprocalblasts" of the script it is necessary to change the database file paths as the current are MY PATHS 
