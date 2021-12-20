@@ -1,6 +1,6 @@
 require 'bio'
 
-#This script is think only for search orthologues between two species
+#This script is thought only for searching orthologues between two species
 #The usaege is: ruby script4.rb file1 (Spombe.fa) file2 (Tair.fa)
 #The script creates a report file in which the ID of the orthologues, the script runtime and the number of orthologues is provided
 
@@ -8,7 +8,7 @@ require 'bio'
 #This method is implemented from https://stackoverflow.com/questions/11406410/measure-and-benchmark-time-for-ruby-methods
 @starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 
-#Importing the proteome files of the species which are going to be compared to obtain the orthologues between them
+#Importe the proteome files of the species which are going to be compared to obtain the orthologues between them
 #First, I recommend to introduce the S. Pombe file as its proteome has less sequences than Tair's, so the time of execution will be reduced
 file1 = ARGV[0]
 file2 = ARGV[1]
