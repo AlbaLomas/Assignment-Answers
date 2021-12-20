@@ -161,7 +161,7 @@ def do_reciprocalblasts(db1 = @file1_list, db2 = @file2_list)
  		#for each query --> perform the blast againt Tair db, thi step is done by the 'blast' fucntion
  		#to use this script you need to change the folder path which contains your database file 
  		#this is MY PATH
- 		best_hit = blast(blast_type1, query, "/Users/albalomasredondo/Desktop/pruebas/"+ "#{database2}")
+ 		best_hit = blast(blast_type1, query, "#{database2}")
  		#if there is not result
  		if best_hit == nil
  		#do nothing
@@ -181,7 +181,7 @@ def do_reciprocalblasts(db1 = @file1_list, db2 = @file2_list)
 		if @dict_hits_1.values.include? query.entry_id
 			#perform blast againt S.pombe database
 			#to use this script you need to change the folder path which contains your database file 
-			best_hit = blast(blast_type2, query,"/Users/albalomasredondo/Desktop/pruebas/"+ "#{database1}")
+			best_hit = blast(blast_type2, query, "#{database1}")
 			#if there is not result
  			if best_hit == nil
  			#do nothing
