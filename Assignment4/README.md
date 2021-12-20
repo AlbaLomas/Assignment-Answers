@@ -31,5 +31,3 @@ The analysis can be continued by obtaining phylogenetic trees of genes that are 
 Focusing on Blast results, it is also possible to change the parameters in a harder way to found a smaller and more accurated number of ortholog genes. 
 
 Usage command of the script: ruby script4.rb Spombe.fa Tair.fa
-
-**IMPORTANT**: in the function "do_reciprocalblasts" of the script it is necessary to change the database file paths as the current are MY PATHS 
